@@ -1,39 +1,30 @@
 {
-	"manifest_version": 2,
-	"name": "Capture Page State",
-	"description": "",
-	"version": "0.0.1",
-	"author": "Salvador Hernandez",
-	"devtools_page": "devtools.html",
-	"web_accessible_resources": [
-		"/images/checkMark.png"
-	],
-	"icons": {
-		"16": "icon.png",
-		"48": "icon.png",
-		"128": "icon.png"
-	},
-	"background": {
-		"scripts": [
-			"background.js"
-		],
-		"persistent": true
-	},
-	"browser_action": {
-		"default_popup": "popup.html",
-		"default_title": "Capture Page State"
-	},
-	"permissions": [
-		"activeTab",
-		"storage",
-		"downloads",
-		"notifications",
-		"activeTab",
-		"<all_urls>",
-		"http://*/*",
-		"https://*/*",
-		"background",
-		"tabs",
-		"debugger"
-	]
+    "manifest_version": 2,
+    "name": "Defect Capture",
+    "description": "",
+    "version": "0.0.1",
+    "devtools_page": "devtools.html",
+    "web_accessible_resources": [],
+    "icons": {},
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Defect Capture"
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "downloads",
+        "notifications",
+        "activeTab",
+        "<all_urls>",
+        "http://*/*",
+        "https://*/*",
+        "background",
+        "tabs",
+        "debugger"
+    ]
 }

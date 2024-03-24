@@ -1,0 +1,31 @@
+{
+    "name": "defect-capture",
+    "version": "1.0.0",
+    "description": "Capture defects",
+    "main": "dist/background.js",
+    "scripts": {
+        "build": "tsc && tsc background.ts --outDir ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/piyushpradhan/defect-capture.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/piyushpradhan/defect-capture/issues"
+    },
+    "dependencies": {
+        "@types/chrome": "^0.0.263"
+    },
+    "homepage": "https://github.com/piyushpradhan/defect-capture#readme",
+    "devDependencies": {
+        "@types/node": "^20.11.30",
+        "@typescript-eslint/eslint-plugin": "^7.3.1",
+        "@typescript-eslint/parser": "^7.3.1",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "prettier": "3.2.5"
+    }
+}
