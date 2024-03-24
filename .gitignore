@@ -1,3 +1,6 @@
+node_modules
+dist
+
 standardized-screenshot.pem
 standardized-screenshot.zip
 .DS_Store
